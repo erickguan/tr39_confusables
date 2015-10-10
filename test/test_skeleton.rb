@@ -10,14 +10,10 @@ class SkeletonTest < Minitest::Test
   end
 
   def test_equal
-    assert_skeleton_equal "𝖶", "W"
-    assert_skeleton_equal "so̷s", "søs"
-    assert_skeleton_equal "scope", "scope"
-    assert_skeleton_equal "lscopecc鬼obƅa", "1scopecс⿁оbьа"
   end
 
   def test_upper
-    assert_skeleton_equal "lscopecC鬼obƅa", "1scopecC⿁оbьа"
+
   end
 
   def test_consuable?
