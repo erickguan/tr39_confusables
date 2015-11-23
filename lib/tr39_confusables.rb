@@ -1,7 +1,7 @@
 require 'unf'
 
 module Tr39Confusables
-  @@table = Marshal.load(File.open("lib/confusables", "r"))
+  @@table = Marshal.load(File.open(File.join(File.dirname(__FILE__), "confusables"), "r"))
 
   def self.skeleton(string)
     string = UNF::Normalizer.normalize(string, :nfc)
