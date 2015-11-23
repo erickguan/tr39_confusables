@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'tr39_confusables'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2015-10-10'
   s.summary     = 'Rubygem implements Skeleton algorithm from Unicode TR39 to dectect Unicode confusables.'
   s.description = 'Rubygem implements Skeleton algorithm from Unicode TR39 to dectect Unicode confusables.'
